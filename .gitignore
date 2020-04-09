@@ -72,4 +72,5 @@ fabric.properties
 /out/
 /.idea/
 /.iml
+/.gitignore
 
