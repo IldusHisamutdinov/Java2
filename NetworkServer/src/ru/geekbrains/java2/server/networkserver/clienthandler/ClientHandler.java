@@ -35,7 +35,7 @@ public class ClientHandler {
 
         new Thread(() -> {
             try {
-                clientSocket.setSoTimeout(12000);
+                clientSocket.setSoTimeout(120000);
                 authentication();
                 readMessages();
             } catch (IOException e) {
